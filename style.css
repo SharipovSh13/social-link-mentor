@@ -1,0 +1,60 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+.main-card-grids {
+  display: grid;
+  place-items: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 16px;
+}
+.card-link {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: hsl(0, 0%, 12%);
+}
+img {
+  width: 100px;
+  border-radius: 100%;
+}
+.div-buttons {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  row-gap: 6px;
+}
+button {
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+}
+button:hover {
+  background-color: hsl(0, 3%, 25%);
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.userName {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.address {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: hsl(75, 94%, 57%);
+}
+.address:hover {
+  color: hsl(75, 94%, 37%);
+}
+span {
+  color: white;
+}
